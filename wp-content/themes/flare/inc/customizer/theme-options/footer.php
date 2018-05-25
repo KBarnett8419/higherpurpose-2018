@@ -7,7 +7,7 @@ global $flare_customizer_defaults;
 /*defaults values*/
 $flare_customizer_defaults['flare-footer-sidebar-number'] = 2;
 $flare_customizer_defaults['flare-copyright-text'] = __('Copyright &copy; All right reserved','flare');
-$flare_customizer_defaults['flare-enable-theme-name'] = 1;
+/*$flare_customizer_defaults['flare-enable-theme-name'] = 1;*/
 
 $flare_sections['flare-footer-options'] =
     array(

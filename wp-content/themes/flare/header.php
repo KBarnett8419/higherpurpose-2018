@@ -16,7 +16,15 @@
  */
 do_action( 'flare_action_before_head' );?>
 
-
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Higher Purpose Fellowship" />
+	<meta property="og:description" content="Leading people into a God-fulfilled life." />
+	<meta property="og:url" content="http://higherpurposefellowship.com/" />
+	<meta property="og:site_name" content="Higher Purpose Fellowship" />
+	<meta property="og:image" content="http://higherpurposefellowship.com/wp-content/uploads/2018/05/hpf-og-image.png" />
 
 <head>
 

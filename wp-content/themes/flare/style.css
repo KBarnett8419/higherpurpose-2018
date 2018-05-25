@@ -718,6 +718,7 @@ p.site-title,
 h1.site-title {
   margin: 0;
   font-family: 'PT Sans', sans-serif;
+  display: none;
 }
 
 
@@ -1220,6 +1221,7 @@ header#masthead {
   color: #000;
   text-transform: uppercase;
   letter-spacing: 8px;
+  line-height: 30px;
 }
 
 .site-branding .site-description {
@@ -1891,7 +1893,7 @@ aside#secondary {
 .wrapper.page-inner-title {
   position: relative;
     color: #0a0a0a;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
     margin-bottom: 6px;
     font-weight: 100;
@@ -1902,6 +1904,8 @@ aside#secondary {
   -o-background-size: cover;
   background-size: cover !important;
     background: rgba(0, 0, 0, 0.55);
+    background-image: url('http://localhost/higherpurpose/wp-content/uploads/2018/05/page-background-header.png') !important;
+
 }
 
 header.entry-header h1 {
@@ -2850,6 +2854,18 @@ div#pagenotfound-search {
   padding: 39px;
 }
 
+img.custom-logo {
+  width: 90%;
+}
+
+div.wrapper.page-inner-title {
+  background-image: url('');
+}
+
+.edit-link {
+  display: none;
+}
+
 /*--------------------------------------------------------------
 responsive
 --------------------------------------------------------------*/
@@ -2892,8 +2908,8 @@ responsive
     font-size: 28px;
   }
   .wrapper.page-inner-title {
-    margin-left: 16px;
-    margin-right: 16px;
+  /*  margin-left: 16px;
+    margin-right: 16px; */
   }
   .container.tb-post-content {
     display: initial;
@@ -2960,7 +2976,7 @@ responsive
     width: calc(100% - 97px);
   }
   img.custom-logo {
-    width: 100%;
+    width: 60%;
   }
 }
 
