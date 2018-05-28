@@ -309,6 +309,10 @@ class PUM_AssetCache {
 
 				$popup = pum_get_popup( $query->post->ID );
 
+				if ( ! pum_is_popup( $popup ) ) {
+					continue;
+				}
+
 				ob_start();
 
 				if ( $popup->get_setting( 'zindex', false ) ) {
@@ -317,7 +321,7 @@ class PUM_AssetCache {
 				}
 
 				// Allow per popup CSS additions.
-				do_action( 'pum_generate_popup_css', $query->post->ID );
+				do_action( 'pum_generate_popup_css', $popup->ID );
 
 				$popup_css .= ob_get_clean();
 

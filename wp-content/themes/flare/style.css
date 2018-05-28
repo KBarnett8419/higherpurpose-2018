@@ -1216,12 +1216,11 @@ header#masthead {
 
 .site-branding p a,
 .site-branding h1 a {
-  font-size: 30px;
+  /*font-size: 30px;*/
   margin: 0;
   color: #000;
   text-transform: uppercase;
   letter-spacing: 8px;
-  line-height: 30px;
 }
 
 .site-branding .site-description {
@@ -1229,6 +1228,7 @@ header#masthead {
   margin: 0;
   color: #fff;
   letter-spacing: 2px;
+  line-height: 25px;
 }
 
 .site-branding p a:hover,
@@ -2854,8 +2854,19 @@ div#pagenotfound-search {
   padding: 39px;
 }
 
-img.custom-logo {
-  width: 90%;
+/*============================================================
+              AUTHOR input
+=============================================================*/
+
+/*img.custom-logo {
+  width: 100%;
+}*/
+
+.menu-main-menu-container {
+  position: relative;
+  top: 12px;
+  text-transform: uppercase;
+  left: 30px;
 }
 
 div.wrapper.page-inner-title {
@@ -2865,6 +2876,15 @@ div.wrapper.page-inner-title {
 .edit-link {
   display: none;
 }
+
+
+/*div.item.inactive .carousel-caption.wow.fadeInUp.animated {
+  visibility: visible;
+  animation-duration: 1.8s;
+  animation-name: fadeInUp;
+  display: none;
+}*/
+
 
 /*--------------------------------------------------------------
 responsive

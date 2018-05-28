@@ -49,7 +49,7 @@ function flare_setup() {
 	 * to change 'flare-eye' to the name of your theme in all the template files.
 	 */
 	load_theme_textdomain( 'flare', get_template_directory() . '/languages' );
-	
+
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
 
@@ -105,8 +105,8 @@ function flare_setup() {
 	/*implimenting new feature from 4.5*/
 	add_theme_support( 'custom-logo', array(
 	   'header-text' => array( 'site-title', 'site-description' ),
-	   'height'      => 50,
-	   'width'       => 165,
+	   'height'      => 1000,
+	   'width'       => 1600,
 	   'flex-width' => true
 	) );
 
@@ -150,10 +150,10 @@ function flare_scripts() {
         wp_enqueue_script( 'jquery-slick', $assets_url.'js/vender/slick.js', array('jquery'));
 
         wp_enqueue_script( 'jquery-wow', $assets_url.'js/vender/wow.min.js', array('jquery'), '1.1.3', true );
-        
+
         //ENQUEUE
         wp_enqueue_script( 'flare-main', $assets_url.'js/main.js', array('jquery'),null,true );
-        
+
 	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/assets/js/navigation.js', array('jquery'), '20151215', true );
 	wp_enqueue_script( 'skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20151215', true );
 
