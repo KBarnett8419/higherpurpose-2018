@@ -45,6 +45,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   ## Galleries
 --------------------------------------------------------------*/
 
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -468,7 +469,7 @@ button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  background: #dc624c;
+  background: #999;
   text-decoration: none;
 }
 
@@ -594,7 +595,7 @@ a:active {
 .main-navigation li {
   float: left;
   position: relative;
-  padding: 0 15px;
+  padding: 0 8px;
 }
 
 .main-navigation a {
@@ -1841,10 +1842,10 @@ select#cat {
 inner pages and posts
 --------------------------------------------------------------*/
 
-.container.tb-post-content #primary {
+/*.container.tb-post-content #primary {
   width: 70%;
   padding-right: 5%;
-}
+}*/
 
 body.home.page-template-default #primary {
   width: 100%;
@@ -2862,6 +2863,8 @@ div#pagenotfound-search {
   width: 100%;
 }*/
 
+
+
 .menu-main-menu-container {
   position: relative;
   top: 12px;
@@ -2871,11 +2874,49 @@ div#pagenotfound-search {
 
 div.wrapper.page-inner-title {
   background-image: url('');
+  margin-bottom: 0;
 }
 
 .edit-link {
   display: none;
 }
+
+.page-template-default .site-content {
+  background-color: #f2f2f2;
+}
+
+.page-template-front-page .entry-content {
+   width: 95%;
+}
+
+.page-template-default .container.tb-post-content {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border: 1px solid #3333337a;
+  background-color: #fff;
+  box-shadow: 2px 1px 2px #333;
+}
+
+.page-template-default .entry-content {
+  margin: 1% 10%;
+  padding-right: 2%;
+}
+
+.widget-area {
+  margin-right: 8%;
+}
+
+.widget.widget_media_image {
+  width: 180%;
+  padding-right: 4%;
+}
+/*
+.event-container {
+margin-left: 35%;
+}
+*/
 
 
 /*div.item.inactive .carousel-caption.wow.fadeInUp.animated {
@@ -2885,6 +2926,11 @@ div.wrapper.page-inner-title {
   display: none;
 }*/
 
+/*
+.item.inactive .carousel-caption h1 a {
+  display: none;
+}
+*/
 
 /*--------------------------------------------------------------
 responsive
@@ -3092,7 +3138,7 @@ responsive
   }
   .main-navigation li:hover>a,
   .main-navigation li.focus>a {
-    border-bottom: 1px solid #f76a42;
+    border-bottom: 1px solid #e2a824a3;
   }
 }
 
@@ -3123,6 +3169,15 @@ responsive
   .carousel-caption {
     top: 9%;
   }
+
+  .page-template-front-page .entry-content {
+     width: 100%;
+  }
+
+  .widget.widget_media_image {
+    width: 100%;
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -3131,6 +3186,15 @@ responsive
   }
   img.custom-logo {
     width: 100%;
+  }
+
+  .page-template-front-page .entry-content {
+     width: 100%;
+  }
+
+  .widget.widget_media_image {
+    width: 100%;
+    padding-right: 0;
   }
 }
 
