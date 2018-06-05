@@ -2918,7 +2918,7 @@ div.wrapper.page-inner-title {
   font-size: 1.1em;
 }
 
-.inner-healing-details {
+.ministry-details {
   width: 60%;
 }
 
@@ -3045,7 +3045,7 @@ responsive
   .container.main-menu {
     margin-top: 10px;
   }
-  .inner-healing-details {
+  .ministry-details {
     width: 40%;
   }
 }
@@ -3192,7 +3192,7 @@ responsive
     padding-right: 0;
   }
 
-  .inner-healing-details {
+  .ministry-details {
     width: 100%;
   }
 }
@@ -3214,7 +3214,7 @@ responsive
     padding-right: 0;
   }
 
-  .inner-healing-details {
+  .ministry-details {
     width: 100%;
   }
 }
