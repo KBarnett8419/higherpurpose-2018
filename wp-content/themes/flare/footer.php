@@ -59,5 +59,6 @@ do_action( 'flare_action_after_footer' );
 do_action( 'flare_action_after' );
 ?>
 <?php wp_footer(); ?>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </body>
 </html>

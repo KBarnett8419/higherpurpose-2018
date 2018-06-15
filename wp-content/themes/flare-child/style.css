@@ -1883,7 +1883,7 @@ aside#secondary {
 .page .page-inner-title,
 .wrapper.page-inner-title {
   position: relative;
-    color: #0a0a0a;
+    color: #102446;
     padding: 50px 0;
     text-align: center;
     margin-bottom: 6px;
@@ -1894,9 +1894,7 @@ aside#secondary {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover !important;
-    background: rgba(0, 0, 0, 0.55);
-    background-image: url('http://localhost/higherpurpose/wp-content/uploads/2018/05/page-background-header.png') !important;
-
+    /*background: #102446 !important;*/
 }
 
 header.entry-header h1 {
@@ -2863,8 +2861,9 @@ div#pagenotfound-search {
 }
 
 div.wrapper.page-inner-title {
-  background-image: url('');
+  background-image: url('https://higherpurposefellowship.com/wp-content/uploads/2018/05/page-background-header.png') !important;
   margin-bottom: 0;
+  padding: 10px;
 }
 
 .edit-link {
@@ -2953,6 +2952,11 @@ responsive
   img.custom-logo {
     width: 100%;
   }
+
+  #main > div > div.ml-slider-3-8-1.metaslider.metaslider-flex.metaslider-212.ml-slider.hpf-slider {
+    width: 100%;
+    /*margin: 0 -10%;*/
+  }
 }
 
 @media screen and (max-width:1000px) {
@@ -2962,6 +2966,7 @@ responsive
   body.home header#masthead {
     padding: 7px 0;
     margin-bottom: 10px;
+    margin-top: -10px;
   }
   .main-navigation ul ul {
     border-top: 0;
@@ -3101,6 +3106,7 @@ responsive
   .main-navigation li {
     padding: 0;
     width: 100%;
+    /*margin: -10px 0;*/
   }
   .main-navigation ul {
     position: absolute;
@@ -3112,18 +3118,21 @@ responsive
     padding: 10px 20px !important;
     background: #000;
     width: 250px;
-    overflow-y: scroll;
+    overflow-y: scroll !important;
     overflow-x: hidden;
   }
   ul#primary-menu {
-    height: 668px;
+    /*height: 668px;*/
+    height: 700px;
   }
   .main-navigation ul ul {
     background: rgba(0, 0, 0, 0);
     box-shadow: none;
     padding: 0 17px;
     position: initial;
-    overflow: hidden;
+    /*overflow: hidden;*/
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
   .main-navigation ul ul ul {
     padding: 0 18px;
@@ -3152,6 +3161,11 @@ responsive
   .main-navigation li:hover>a,
   .main-navigation li.focus>a {
     border-bottom: 1px solid #e2a824a3;
+  }
+
+  #main > div > div.ml-slider-3-8-1.metaslider.metaslider-flex.metaslider-212.ml-slider.hpf-slider {
+    width: 100%;
+    margin-left: 0;
   }
 }
 
@@ -3195,6 +3209,30 @@ responsive
   .ministry-details {
     width: 100%;
   }
+
+  header#masthead {
+    background: #1d3f7c;
+    padding: 2px 0 !important;
+
+  }
+
+  .page-template-default .container.tb-post-content {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #3333337a;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #333;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #main > div > div.ml-slider-3-8-1.metaslider.metaslider-flex.metaslider-212.ml-slider.hpf-slider {
+    width: 120%;
+    margin: 0 -10%;
+  }
+
 }
 
 @media screen and (max-width: 350px) {
@@ -3216,6 +3254,27 @@ responsive
 
   .ministry-details {
     width: 100%;
+  }
+
+  header#masthead {
+    background: #1d3f7c;
+    padding: 2px 0;
+  }
+  .page-template-default .container.tb-post-content {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #3333337a;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #333;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #main > div > div.ml-slider-3-8-1.metaslider.metaslider-flex.metaslider-212.ml-slider.hpf-slider {
+    width: 120%;
+    margin: 0 -10%;
   }
 }
 

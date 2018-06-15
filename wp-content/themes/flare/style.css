@@ -1905,7 +1905,6 @@ aside#secondary {
   -o-background-size: cover;
   background-size: cover !important;
     background: rgba(0, 0, 0, 0.55);
-    background-image: url('http://localhost/higherpurpose/wp-content/uploads/2018/05/page-background-header.png') !important;
 
 }
 
@@ -2873,7 +2872,7 @@ div#pagenotfound-search {
 }
 
 div.wrapper.page-inner-title {
-  background-image: url('');
+  background-image: url('http://higherpurposefellowship.com/wp-content/uploads/2018/05/page-background-header.png');
   margin-bottom: 0;
 }
 
